@@ -4,7 +4,7 @@
 % Author        :Jennifer Guadalupe Angeles Hernandez
 % Matricula     :202123795
 % Version       : 1
-% Descripcion   : Utilizacion de Octave
+% Descripcion   : Utilizacion de Octave , identificar funcion
 % Problema      : UNO
 % Funcion       : f(x)= (x+2) (x+2) 
 
@@ -21,6 +21,7 @@ fx= ((x+2).*(x-2));
 
 % Identificar  Funcion
 disp('Funcion polinomial')
+disp('contiene variables contiene suma y resta y no contiene division')
 
 % Grafica
 plot(x,fx);
