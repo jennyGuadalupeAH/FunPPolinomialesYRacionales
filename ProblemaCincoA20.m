@@ -22,6 +22,7 @@ fx= cbrt(x.^2)
 
 % Identificar Funcion 
 disp('Funcion Racional')
+disp('La funcion Raiz cubica de x^2 no corresponde a polinomial, ni a racional')
 
 % Graficar funcion
 plot(x,fx)
