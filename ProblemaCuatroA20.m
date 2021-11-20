@@ -20,7 +20,8 @@ x=(-10:1:10);
 fx= ((2.*x)+(1));
 % Identificar Funcion
 disp('Funcion Polimonial')
-
+disp('Ya que es una suma basica que no necesita una division')
+disp('f(x)=0 cuando x=-0.5')
 % Grafica Funcion
 plot(x,fx)
 
@@ -30,4 +31,4 @@ title('Problema Cuatro')
 % Etiqueta para x
 xlabel('Valor x')
 % Etiqueta para y
-ylabel('f(x)')
+ylabel('f(x)=0 cuando x=-0.5')
