@@ -20,7 +20,7 @@ fx=((2.*x.^2)+(x.^4)+(x));
 % Identificar la funcion
 disp('Funcion Polimonial')
 disp('Ya que contiene variables basicas de suma y resta')
-disp ('f(x)=0 cuando x1=0 y x2=-0.453398')
+disp ('f(x)=0 cuando x=0 y x=-0.4533')
 % Graficar funcion 
 plot( x,fx, 'c', 'linewidth', 3);
 
@@ -30,5 +30,5 @@ title('Problema Dos')
 % Etiqueta para x
 xlabel(' valor de x')
 % Etiqueta para y
-ylabel('f(x)=0 cuando x1=0 y x2=-0.453398')
+ylabel('f(x)=0 cuando x=0 y x=-0.4533')
 
