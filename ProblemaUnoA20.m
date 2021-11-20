@@ -22,7 +22,7 @@ fx= ((x+2).*(x-2));
 % Identificar  Funcion
 disp('Funcion polinomial')
 disp('contiene variables contiene suma y resta y no contiene division')
-disp('f(x)=0 cuando x1=-2 y x2=2');
+disp('f(x)=0 cuando x=-2 y x=2');
 
 % Grafica
 plot(x,fx);
@@ -33,4 +33,4 @@ title('Problema uno');
 %Etiqueta x
 xlabel( 'Valor x');
 % Etiqueta y
-ylabel('f(x)=0 cuando x1=-2 y x2=2');
+ylabel('f(x)=0 cuando x=-2 y x=2');
