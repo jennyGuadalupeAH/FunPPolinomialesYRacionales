@@ -22,6 +22,7 @@ fx=((x.^3)-(6.*x.^2)+(11.*x)-(6))
 
 % Identificar Funcion
 disp('Funcion Polimonial')
+disp('f(x)=0 cuando x=1   x=2     x=3 ')
 
 % Grafica Funcion
 plot(x,fx)
@@ -31,4 +32,4 @@ title('Problema seis')
 % Etiqueta para x
 xlabel('Valor x')
 % Etiqueta para y 
-ylabel('f(x)')
+ylabel('f(x)=0 cuando x=1   x=2     x=3 ')
